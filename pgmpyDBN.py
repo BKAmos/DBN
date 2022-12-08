@@ -20,9 +20,9 @@ import pandas as pd
 ### Could make a CPD table dynammically by pushing all the isolates into time vectors at a single scale and using that as the reference for the predecessor function
 ### 
 
-data = pd.read_csv('/Users/bkamos/Documents/GitHub/DBN/data/RelativeAbundance_Filtered_ordered.csv')
-taxa = pd.read_csv('/Users/bkamos/Documents/GitHub/DBN/data/Taxa_New_ISOTAXA.csv')
-meta = pd.read_csv('/Users/bkamos/Documents/GitHub/DBN/data/ES_Meta.csv')
+data = pd.read_csv('/Users/bkamos/Documents/GitHub/InRoot/data/RelativeAbundance_Filtered_ordered.csv')
+taxa = pd.read_csv('/Users/bkamos/Documents/GitHub/InRoot/data/Taxa_New_ISOTAXA.csv')
+meta = pd.read_csv('/Users/bkamos/Documents/GitHub/InRoot/data/ES_Meta.csv')
 
 print(data)
 isolates = data.iloc[:,0]
